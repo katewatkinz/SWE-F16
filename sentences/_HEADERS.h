@@ -36,3 +36,6 @@ int kienanSentence2();
 
 int WXLSentence1();
 int WXLSentence2();
+
+int jry83Sentence1();
+int jry83Sentence2();

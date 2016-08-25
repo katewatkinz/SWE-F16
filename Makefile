@@ -74,7 +74,7 @@ story: story.o bpbkt7.o tiit37.o wb334.o kbzg4.o mjrqq3.o jbwy9b.o aardz6.o skin
 
 story: story.o bpbkt7.o tiit37.o wb334.o kbzg4.o mjrqq3.o jbwy9b.o aardz6.o kewkr8.o
 
-story: story.o bpbkt7.o mjrqq3.o tiit37.o wb334.o kewkr8.o
+story: story.o bpbkt7.o mjrqq3.o tiit37.o wb334.o kewkr8.o jry83.o
 
 
 	$(CC) -o story $^
@@ -108,4 +108,6 @@ kddth9.o: sentences/kddth9.c
 kewkr8.o: sentences/kewkr8.c
 		$(CC) -c $<
 wlkr7.o :sentences/wlkr7.c
+		$(CC) -c $<
+jry83.o :sentences/jry83.c
 		$(CC) -c $<
